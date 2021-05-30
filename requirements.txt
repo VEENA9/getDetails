@@ -5,6 +5,5 @@ flask-ngrok==0.0.25
 flask==1.1.4
 pandas==1.1.5
 numpy==1.19.5
-poppler-utils
+pdf2image==1.15.1
 gunicorn
-
