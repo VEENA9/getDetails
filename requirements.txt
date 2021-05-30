@@ -7,12 +7,3 @@ pandas==1.1.5
 numpy==1.19.5
 pdf2image==1.15.1
 gunicorn
-convertdate==2.3.2
-pip-tools==4.5.1
-tensorflow==2.5.0
-tensorflow-datasets==4.0.1
-tensorflow-estimator==2.5.0
-tensorflow-gcs-config==2.5.0
-tensorflow-hub==0.12.0
-tensorflow-metadata==1.0.0
-tensorflow-probability==0.12.1
