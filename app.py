@@ -577,28 +577,28 @@ def print_pages(pdf_file):
 
 """#main - front/json"""
 
-# from flask_ngrok import run_with_ngrok 
-# from flask import Flask, render_template, request, redirect, url_for, render_template, send_from_directory
-# from werkzeug.utils import secure_filename
-# from flask import request, jsonify
-# app = Flask(__name__)
-# run_with_ngrok(app)
-# @app.route('/')
-# def text():
-#   return render_template('text.html')
+from flask_ngrok import run_with_ngrok 
+from flask import Flask, render_template, request, redirect, url_for, render_template, send_from_directory
+from werkzeug.utils import secure_filename
+from flask import request, jsonify
+app = Flask(__name__)
+run_with_ngrok(app)
+@app.route('/')
+def text():
+  return render_template('text.html')
 
-# @app.route('/second', methods = ['GET', 'POST'])
-# def get_details():
-#   if request.method == 'POST':
-#         f = request.files['file']
-#         name = f.save(f.filename)
-#         file_path = '/content/'+f.filename
-#         result= print_pages(file_path) 
+@app.route('/second', methods = ['GET', 'POST'])
+def get_details():
+  if request.method == 'POST':
+        f = request.files['file']
+        name = f.save(f.filename)
+        file_path = '/content/'+f.filename
+        result= print_pages(file_path) 
         
-#         return  result
+        return  result
 
      
 		
-# if __name__ == '__main__':
+if __name__ == '__main__':
   
-#    app.run()
+   app.run()
