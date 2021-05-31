@@ -11,4 +11,3 @@ poppler-utils==0.1.0
 imageio==2.4.1
 imagesize==1.2.0
 pathlib==1.0.1
-libpng12==1.2.57
