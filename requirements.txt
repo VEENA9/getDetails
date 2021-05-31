@@ -7,4 +7,5 @@ pandas==1.1.5
 numpy==1.19.5
 pdf2image==1.15.1
 gunicorn
-poppler-utils
+python-poppler==0.2.2
+poppler-utils==0.1.0
