@@ -1,1 +1,2 @@
 libpng-dev
+build-essential libpoppler-cpp-dev pkg-config python3-dev
