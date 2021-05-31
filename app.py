@@ -510,6 +510,8 @@ try:
 except ImportError:
     import Image
 import pytesseract
+import sys
+from pathlib import Path
 
 
 def pdf_to_img(pdf_file):
