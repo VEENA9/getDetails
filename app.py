@@ -9,16 +9,6 @@ Original file is located at
 #lib
 """
 
-# !pip show pandas
-
-# !pip3 install Pillow
-# !pip3 install pytesseract
-# !pip3 install pdf2image
-# !sudo apt-get install tesseract-ocr
-# !apt-get install poppler-utils 
-# !pip install python-poppler
-# !pip install python-poppler
-
 import os
 
 if not os.path.exists('templates'):
