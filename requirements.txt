@@ -1,11 +1,9 @@
 Pillow== 7.1.2
 pytesseract==0.3.7
-pdf2image==1.15.1
 flask-ngrok==0.0.25
 flask==1.1.4
 pandas==1.1.5
 numpy==1.19.5
-pdf2image==1.15.1
 gunicorn
 poppler-utils==0.1.0
 imageio==2.4.1
