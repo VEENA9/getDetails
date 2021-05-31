@@ -522,7 +522,7 @@ from pathlib import Path
 
 def pdf_to_img(pdf_file):
     	
-    return convert_from_path(pdf_file, poppler_path="C:\Program Files\poppler-0.68.0\bin")
+    return convert_from_path(pdf_file, poppler_path="poppler-0.68.0/bin/")
 
 
 def ocr_core(file):
