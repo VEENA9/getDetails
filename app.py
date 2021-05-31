@@ -522,7 +522,7 @@ from pathlib import Path
 
 def pdf_to_img(pdf_file):
     	
-    return convert_from_path(pdf_file, output_folder=path)
+    return convert_from_path(pdf_file, output_folder=Path)
 
 
 def ocr_core(file):
