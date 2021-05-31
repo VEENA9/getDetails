@@ -518,7 +518,7 @@ from pathlib import Path
 
 
 def pdf_to_img(pdf_file):
-    logging.info(f"Extracting page images from {path}")	
+    logging.info(f"Extracting page images from {pdf_file}")	
     return pdf2image.convert_from_path(pdf_file)
 
 
