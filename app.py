@@ -512,9 +512,13 @@ except ImportError:
 import pytesseract
 import sys
 from pathlib import Path
+import logging
+import sys
+from pathlib import Path
 
 
 def pdf_to_img(pdf_file):
+    logging.info(f"Extracting page images from {path}")	
     return pdf2image.convert_from_path(pdf_file)
 
 
