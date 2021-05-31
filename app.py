@@ -8,6 +8,13 @@ Original file is located at
 
 #lib
 """
+from .pdf2image import (
+    convert_from_bytes,
+    convert_from_path,
+    pdfinfo_from_bytes,
+    pdfinfo_from_path,
+)
+
 
 import os
 
