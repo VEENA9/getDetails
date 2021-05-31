@@ -1,6 +1,3 @@
-# you can list packages
-libexample-dev
-
 # or include links to specific .deb files
 https://downloads.example.com/example.deb
 
