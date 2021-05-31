@@ -504,7 +504,20 @@ import json
 import collections
 import numpy as np
 import pandas as pd
-import pdf2image
+# import pdf2image
+from pdf2image import (
+    convert_from_bytes,
+    convert_from_path,
+    pdfinfo_from_bytes,
+    pdfinfo_from_path,
+)
+from pdf2image.exceptions import (
+    PDFInfoNotInstalledError,
+    PDFPageCountError,
+    PDFSyntaxError,
+    PDFPopplerTimeoutError,
+)
+
 try:
     from PIL import Image
 except ImportError:
