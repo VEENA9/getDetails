@@ -518,11 +518,15 @@ from pathlib import Path
 import logging
 import sys
 from pathlib import Path
+import tempfile
+
 
 
 def pdf_to_img(pdf_file):
+    with tempfile.TemporaryDirectory() as path:
+	images_from_path = convert_from_path(pdf_file, output_folder=path)
     	
-    return convert_from_path(pdf_file, poppler_path="poppler-0.68.0/bin/")
+    return images_from_path
 
 
 def ocr_core(file):
