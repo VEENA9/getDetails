@@ -8,14 +8,14 @@ Original file is located at
 
 #lib
 """
-!pip3 install Pillow
-!pip3 install pytesseract
-!pip3 install pdf2image
-!sudo apt-get install tesseract-ocr
-!apt-get install poppler-utils 
-!pip install python-poppler
-!pip install python-poppler
-!pip install flask-ngrok
+# !pip3 install Pillow
+# !pip3 install pytesseract
+# !pip3 install pdf2image
+# !sudo apt-get install tesseract-ocr
+# !apt-get install poppler-utils 
+# !pip install python-poppler
+# !pip install python-poppler
+# !pip install flask-ngrok
 
 import os
 
