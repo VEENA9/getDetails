@@ -507,7 +507,6 @@ try:
 except ImportError:
     import Image
 import pytesseract
-import temp
 
 
 def pdf_to_img(pdf_file):
