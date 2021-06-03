@@ -623,14 +623,15 @@ from flask import Flask, render_template, request, redirect, url_for, render_tem
 from werkzeug.utils import secure_filename
 from flask import request, jsonify
 
-uploads_dir = os.path.join(app.instance_path, 'uploads/')
-os.makedirs(uploads_dir,exist_ok=True)
 
 app = Flask(__name__)
 run_with_ngrok(app)
 @app.route('/')
 def text():
   return render_template('text.html')
+
+uploads_dir = os.path.join(app.instance_path, 'uploads/')
+os.makedirs(uploads_dir,exist_ok=True)
 
 @app.route('/second', methods = ['GET', 'POST'])
 def get_details():
