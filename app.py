@@ -507,10 +507,14 @@ try:
 except ImportError:
     import Image
 import pytesseract
+import temp
 
 
 def pdf_to_img(pdf_file):
-    return pdf2image.convert_from_path(pdf_file)
+    with temp.tempfile.TemporaryDirectory() as path:
+	images_from_path = convert_from_path(pdf_file, output_folder=path)
+    return images_from_path	
+#     return pdf2image.convert_from_path(pdf_file)
 
 
 def ocr_core(file):
