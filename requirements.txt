@@ -8,3 +8,4 @@ gunicorn
 poppler-utils==0.1.0
 imageio==2.4.1
 imagesize==1.2.0
+tesseract==3.03
