@@ -622,7 +622,6 @@ from flask_ngrok import run_with_ngrok
 from flask import Flask, render_template, request, redirect, url_for, render_template, send_from_directory
 from werkzeug.utils import secure_filename
 from flask import request, jsonify
-import urllib.request
 
 uploads_dir = os.path.join(app.instance_path, 'uploads/')
 os.makedirs(uploads_dir,exist_ok=True)
