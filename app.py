@@ -548,6 +548,7 @@ try:
 except ImportError:
     import Image
 import pytesseract
+import sys, os
 # from pytesseract import image_to_data
 
 
