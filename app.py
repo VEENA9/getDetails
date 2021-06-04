@@ -547,8 +547,8 @@ try:
     from PIL import Image
 except ImportError:
     import Image
-# import pytesseract
-from pytesseract import image_to_data
+import pytesseract
+# from pytesseract import image_to_data
 
 
 def pdf_to_img(pdf_file,output_path):
@@ -558,7 +558,7 @@ def pdf_to_img(pdf_file,output_path):
 
 
 def ocr_core(file):
-    df_text = image_to_data(file)
+    df_text = pytesseract.image_to_data(file)
     return df_text
 
 def head_find(Df_filter1):
