@@ -559,7 +559,7 @@ def pdf_to_img(pdf_file,output_path):
 
 
 def ocr_core(file):
-    pytesseract.pytesseract.tesseract_cmd = ['/app/.apt/usr/bin/tesseract']	 
+    pytesseract.pytesseract.tesseract_cmd = "/app/.apt/usr/bin/tesseract"	 
     df_text = pytesseract.image_to_data(file)
     return df_text
 
