@@ -549,6 +549,7 @@ except ImportError:
     import Image
 import pytesseract
 import sys, os
+import io
 # from pytesseract import image_to_data
 
 
