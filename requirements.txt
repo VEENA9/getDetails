@@ -16,7 +16,6 @@ click==8.0.1
 colorama==0.4.4
 distlib==0.3.2
 filelock==3.0.12
-Flask==2.0.1
 flask-ngrok==0.0.25
 idna==2.10
 itsdangerous==2.0.1
