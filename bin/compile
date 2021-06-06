@@ -1,8 +1,0 @@
-#!/bin/bash
-
-BUILD_DIR=$1
-ENVSCRIPT=$BUILD_DIR/.profile.d/tesseract.sh
-
-echo "-----> updating LD_LIBRARY_PATH for tesseract"
-mkdir -p $BUILD_DIR/.profile.d
-echo "export LD_LIBRARY_PATH=\"\$HOME/.apt/lib/x86_64-linux-gnu:\$LD_LIBRARY_PATH\"" > $ENVSCRIPT
